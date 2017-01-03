@@ -41,7 +41,7 @@ public class linkedlist {
 		
 		
 		while(current!=null){
-			if(current.data==d){
+			if(current.data==d) {
 				if(prev!=null){
 					prev.next=current.next;
 					return true;
